@@ -23,13 +23,58 @@
         android:layout_height="350dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/pic0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/pic2" />
+            app:srcCompat="@drawable/pic0" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="410dp"
+            android:layout_height="274dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic1" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="410dp"
+            android:layout_height="274dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic3" />
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="410dp"
+            android:layout_height="274dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic4" />
+
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="410dp"
+            android:layout_height="274dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic5" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -39,14 +84,14 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/btn_prev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@android:drawable/ic_media_rew" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
