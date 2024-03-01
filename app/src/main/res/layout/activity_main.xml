@@ -43,6 +43,17 @@
             app:srcCompat="@drawable/pic1" />
 
         <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="410dp"
+            android:layout_height="274dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic2" />
+
+        <ImageView
             android:id="@+id/pic3"
             android:layout_width="410dp"
             android:layout_height="274dp"
